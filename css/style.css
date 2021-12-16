@@ -2,17 +2,18 @@
   margin: 0;
   padding: 0;
 }
+/* header area start here  */
 .header-area {
   padding: 50px 30px;
 }
-.top-area {
+.header-top-area {
   overflow: hidden;
 }
-.logo-area {
+.header-logo-area {
   float: left;
   width: 20%;
 }
-.logo-area img {
+.header-logo-area img {
   width: 250px;
 }
 .menu-delivery-area {
@@ -57,14 +58,14 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.bottom-area {
+.header-bottom-area {
   overflow: hidden;
 }
-.text-area {
+.header-bottom-area .header-text-area {
   float: left;
-  padding-top: 180px;
+  padding-top: 190px;
 }
-.text-area h3 {
+.header-bottom-area .header-text-area h3 {
   text-transform: uppercase;
   color: #3d2514;
   font-family: "Bebas Neue", cursive;
@@ -76,7 +77,7 @@
   display: inline;
   text-align: center;
 }
-.text-area h1 {
+.header-bottom-area .header-text-area h1 {
   text-transform: uppercase;
   color: #3d2514;
   font-family: "Alfa Slab One", cursive;
@@ -84,7 +85,7 @@
   letter-spacing: 1px;
   text-shadow: 2px 3px 2px #fff;
 }
-.text-area h2 {
+.header-bottom-area .header-text-area h2 {
   text-transform: uppercase;
   color: #3d2514;
   font-size: 48px;
@@ -99,11 +100,11 @@
 .burger-img-area img {
   position: relative;
   width: 800px;
-  height: 700px;
+  height: 680px;
 }
 .burger-img-area h3 {
   position: absolute;
-  bottom: 215px;
+  bottom: 235px;
   right: 640px;
   color: #fff;
   font-family: "Bebas Neue", cursive;
@@ -115,14 +116,16 @@
 }
 .burger-img-area .only {
   position: absolute;
-  bottom: 190px;
-  right: 625px;
+  bottom: 205px;
+  right: 620px;
   color: #fff;
   font-family: "Bebas Neue", cursive;
-  font-size: 22px;
-  letter-spacing: 10px;
+  font-size: 25px;
+  letter-spacing: 12px;
   font-weight: 400;
 }
+/* header area end here  */
+/* section 1 area start here */
 .section-1 {
   margin: 50px 80px;
   overflow: hidden;
@@ -144,6 +147,8 @@
 .section-1 .right-side .top {
   margin-bottom: 47px;
 }
+/* section 1 area end here */
+/* section 2 area start here */
 .section-2 {
   margin: 10px 80px 50px 80px;
   text-align: center;
@@ -172,6 +177,8 @@
   width: 55%;
   margin: auto;
 }
+/* section 2 area end here */
+/* section 3 area start here */
 .section-3 {
   margin: 80px 50px;
   overflow: hidden;
@@ -214,8 +221,132 @@
 }
 .section-3 .middle-burger {
   float: left;
-  margin-left: 160px;
+  margin-left: 175px;
 }
 .section-3 .right-burger {
   float: right;
 }
+/* section 3 area end here */
+/* section 4 start here  */
+.section-4 {
+  margin: 50px 35px;
+}
+.section-4 .event-area {
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 3px 10px 20px -15px #000;
+}
+.section-4 .event-area .section-4-text {
+  float: left;
+  width: 46%;
+  padding: 40px 30px;
+}
+.section-4 .event-area .section-4-text h3 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  font-weight: 400;
+  color: #3d2514;
+}
+.section-4 .event-area .section-4-text h1 {
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 400;
+  color: #3d2514;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.section-4 .event-area .section-4-text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-4 .event-area .section-4-img {
+  float: right;
+  width: 48%;
+}
+.section-4 .event-area .section-4-img img {
+  width: 98%;
+  margin: 14px 0;
+  height: 480px;
+}
+/* section 4 end here  */
+/* section 5 start here  */
+.section-5 {
+}
+/* section 5 end here  */
+/* footer area start here  */
+footer {
+  width: 98%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.footer-area {
+  padding: 50px 30px 10px 30px;
+}
+.footer-top-area img {
+  width: 400px;
+}
+.center-area {
+  overflow: hidden;
+}
+.center-area .footer-text-area {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding-top: 20px;
+}
+.center-area .footer-text-area p {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.loc-mail-area {
+  float: right;
+  color: #fff;
+  width: 20%;
+}
+.loc-mail-area ul:first-child {
+  list-style: none;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.loc-mail-area ul:last-child {
+  list-style: none;
+  padding-top: 8px;
+  overflow: hidden;
+}
+.loc-mail-area ul li {
+  float: left;
+  margin-left: 10px;
+}
+.footer-bottom-area {
+  overflow: hidden;
+  padding-top: 120px;
+  padding-bottom: 5px;
+}
+.footer-bottom-area .left-bottom {
+  float: left;
+}
+.footer-bottom-area .left-bottom p {
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+.footer-bottom-area .right-bottom {
+  float: right;
+}
+.footer-bottom-area .right-bottom ul {
+  list-style: none;
+  float: right;
+  overflow: hidden;
+}
+.footer-bottom-area .right-bottom ul li {
+  float: left;
+  padding-left: 20px;
+}
+.footer-bottom-area .right-bottom ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+}
+/* footer area end here  */
