@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-area {
+  padding: 50px 30px;
+}
+.top-area {
+  overflow: hidden;
+}
+.logo-area {
+  float: left;
+  width: 20%;
+}
+.logo-area img {
+  width: 250px;
+}
+.menu-delivery-area {
+  float: right;
+  width: 30%;
+}
+.delivery-area {
+  padding-bottom: 40px;
+}
+.delivery-area ul {
+  float: right;
+  overflow: hidden;
+}
+.delivery-area ul li {
+  list-style: none;
+  float: left;
+}
+.delivery-area ul li img {
+  width: 35px;
+  padding-right: 10px;
+}
+.delivery-area ul li h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  font-size: 18px;
+}
+.menu-area ul {
+  list-style: none;
+  float: right;
+  overflow: hidden;
+}
+.menu-area ul li {
+  float: left;
+  padding-left: 50px;
+}
+.menu-area ul a {
+  text-decoration: none;
+  color: #3d2514;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.bottom-area {
+  overflow: hidden;
+}
+.text-area {
+  float: left;
+  padding-top: 180px;
+}
+.text-area h3 {
+  text-transform: uppercase;
+  color: #3d2514;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 2px dashed #3d2514;
+  display: inline;
+  text-align: center;
+}
+.text-area h1 {
+  text-transform: uppercase;
+  color: #3d2514;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 95px;
+  letter-spacing: 1px;
+  text-shadow: 2px 3px 2px #fff;
+}
+.text-area h2 {
+  text-transform: uppercase;
+  color: #3d2514;
+  font-size: 48px;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 1px;
+  text-shadow: 2px 3px 2px #fff;
+  font-weight: 400;
+}
+.burger-img-area {
+  float: right;
+}
+.burger-img-area img {
+  position: relative;
+  width: 800px;
+  height: 700px;
+}
+.burger-img-area h3 {
+  position: absolute;
+  bottom: 215px;
+  right: 640px;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 46px;
+  font-weight: 400;
+}
+.burger-img-area h3 span {
+  font-size: 20px;
+}
+.burger-img-area .only {
+  position: absolute;
+  bottom: 190px;
+  right: 625px;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+.section-1 {
+  margin: 50px 80px;
+  overflow: hidden;
+}
+.section-1 .left-side {
+  float: left;
+  width: 48.5%;
+}
+.section-1 .left-side img {
+  width: 100%;
+}
+.section-1 .right-side {
+  float: right;
+  width: 48.5%;
+}
+.section-1 .right-side img {
+  width: 100%;
+}
+.section-1 .right-side .top {
+  margin-bottom: 47px;
+}
+.section-2 {
+  margin: 10px 80px 50px 80px;
+  text-align: center;
+}
+.section-2 h2 {
+  text-transform: uppercase;
+  color: #3d2514;
+  background-color: #ffc045;
+  display: inline-block;
+  font-family: "Bebas Neue", cursive;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 6px 15px;
+  margin-bottom: 20px;
+}
+.section-2 h1 {
+  color: #3d2514;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.section-2 p {
+  color: #3d2514;
+  width: 55%;
+  margin: auto;
+}
+.section-3 {
+  margin: 80px 50px;
+  overflow: hidden;
+  text-align: center;
+}
+.section-3 .left-burger {
+  float: left;
+}
+.section-3 .left-burger h1,
+.section-3 .middle-burger h1,
+.section-3 .right-burger h1 {
+  text-transform: uppercase;
+  color: #3d2514;
+  font-family: "Bebas Neue", cursive;
+  font-size: 26px;
+  font-weight: 400;
+}
+.section-3 .left-burger h1,
+.section-3 .right-burger h1 {
+  padding: 10px 0;
+}
+.section-3 .left-burger p,
+.section-3 .middle-burger p,
+.section-3 .right-burger p {
+  color: #3d2514;
+  width: 55%;
+  margin: auto;
+}
+.section-3 .left-burger button,
+.section-3 .middle-burger button,
+.section-3 .right-burger button {
+  font-family: "Alfa Slab One", cursive;
+  background-color: #bf2222;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.section-3 .middle-burger {
+  float: left;
+  margin-left: 160px;
+}
+.section-3 .right-burger {
+  float: right;
+}
