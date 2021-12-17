@@ -1,8 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
-/* header area start here  */
 .header-area {
   padding: 50px 30px;
 }
@@ -51,7 +50,7 @@
 }
 .menu-area ul a {
   text-decoration: none;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
   font-weight: 100;
@@ -67,31 +66,31 @@
 }
 .header-bottom-area .header-text-area h3 {
   text-transform: uppercase;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-family: "Bebas Neue", cursive;
   font-weight: 300;
   letter-spacing: 1px;
   padding: 5px 10px;
   font-size: 18px;
-  border: 2px dashed #3d2514;
+  border: 2px dashed rgb(61, 37, 20);
   display: inline;
   text-align: center;
 }
 .header-bottom-area .header-text-area h1 {
   text-transform: uppercase;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-family: "Alfa Slab One", cursive;
   font-size: 95px;
   letter-spacing: 1px;
-  text-shadow: 2px 3px 2px #fff;
+  text-shadow: rgb(255, 255, 255) 2px 3px 2px;
 }
 .header-bottom-area .header-text-area h2 {
   text-transform: uppercase;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-size: 48px;
   font-family: "Alfa Slab One", cursive;
   letter-spacing: 1px;
-  text-shadow: 2px 3px 2px #fff;
+  text-shadow: rgb(255, 255, 255) 2px 3px 2px;
   font-weight: 400;
 }
 .burger-img-area {
@@ -106,7 +105,7 @@
   position: absolute;
   bottom: 235px;
   right: 640px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   font-size: 46px;
   font-weight: 400;
@@ -118,14 +117,12 @@
   position: absolute;
   bottom: 205px;
   right: 620px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   font-size: 25px;
   letter-spacing: 12px;
   font-weight: 400;
 }
-/* header area end here  */
-/* section 1 area start here */
 .section-1 {
   margin: 50px 80px;
   overflow: hidden;
@@ -147,16 +144,14 @@
 .section-1 .right-side .top {
   margin-bottom: 47px;
 }
-/* section 1 area end here */
-/* section 2 area start here */
 .section-2 {
-  margin: 10px 80px 50px 80px;
+  margin: 10px 80px 50px;
   text-align: center;
 }
 .section-2 h2 {
   text-transform: uppercase;
-  color: #3d2514;
-  background-color: #ffc045;
+  color: rgb(61, 37, 20);
+  background-color: rgb(255, 192, 69);
   display: inline-block;
   font-family: "Bebas Neue", cursive;
   font-size: 26px;
@@ -165,7 +160,7 @@
   margin-bottom: 20px;
 }
 .section-2 h1 {
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-family: "Alfa Slab One", cursive;
   font-size: 35px;
   text-transform: uppercase;
@@ -173,12 +168,10 @@
   margin-bottom: 10px;
 }
 .section-2 p {
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   width: 55%;
   margin: auto;
 }
-/* section 2 area end here */
-/* section 3 area start here */
 .section-3 {
   margin: 80px 50px;
   overflow: hidden;
@@ -191,19 +184,19 @@
 .section-3 .middle-burger h1,
 .section-3 .right-burger h1 {
   text-transform: uppercase;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-family: "Bebas Neue", cursive;
   font-size: 26px;
   font-weight: 400;
 }
 .section-3 .left-burger h1,
 .section-3 .right-burger h1 {
-  padding: 10px 0;
+  padding: 10px 0px;
 }
 .section-3 .left-burger p,
 .section-3 .middle-burger p,
 .section-3 .right-burger p {
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   width: 55%;
   margin: auto;
 }
@@ -211,8 +204,8 @@
 .section-3 .middle-burger button,
 .section-3 .right-burger button {
   font-family: "Alfa Slab One", cursive;
-  background-color: #bf2222;
-  color: #fff;
+  background-color: rgb(191, 34, 34);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 25px;
   margin-top: 30px;
@@ -226,17 +219,15 @@
 .section-3 .right-burger {
   float: right;
 }
-/* section 3 area end here */
-/* section 4 start here  */
 .section-4 {
   margin: 50px 35px;
 }
 .section-4 .event-area {
   width: 100%;
   margin: auto;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
-  box-shadow: 3px 10px 20px -15px #000;
+  box-shadow: rgb(0, 0, 0) 3px 10px 25px -15px;
 }
 .section-4 .event-area .section-4-text {
   float: left;
@@ -248,13 +239,13 @@
   font-family: "Bebas Neue", cursive;
   font-size: 25px;
   font-weight: 400;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
 }
 .section-4 .event-area .section-4-text h1 {
   text-transform: uppercase;
   font-family: "Alfa Slab One", cursive;
   font-weight: 400;
-  color: #3d2514;
+  color: rgb(61, 37, 20);
   font-size: 35px;
   padding-bottom: 20px;
 }
@@ -267,22 +258,92 @@
 }
 .section-4 .event-area .section-4-img img {
   width: 98%;
-  margin: 14px 0;
+  margin: 14px 0px;
   height: 480px;
 }
-/* section 4 end here  */
-/* section 5 start here  */
 .section-5 {
+  margin: 130px 0px 150px;
+  position: relative;
 }
-/* section 5 end here  */
-/* footer area start here  */
+.book-your-table {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.book-your-table h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 200;
+  color: rgb(61, 37, 20);
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+.book-your-table h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 400;
+  color: rgb(61, 37, 20);
+  font-size: 40px;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+}
+.book-table-form {
+  width: 70%;
+  margin: auto;
+}
+.book-table-form ul {
+  list-style: none;
+  overflow: hidden;
+}
+.book-table-form ul li {
+  float: left;
+}
+.book-table-form ul li input {
+  width: 327px;
+  padding: 15px 17px;
+  margin: 15px;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 3px;
+  outline: none;
+  font-size: 18px;
+}
+.book-table-form ul li input::placeholder {
+  color: rgb(61, 61, 61);
+  font-family: "Bebas Neue", cursive;
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.book-table-form ul li input[type="submit"] {
+  width: 364px;
+  background-color: rgb(191, 34, 34);
+  color: rgb(255, 255, 255);
+  font-family: "Alfa Slab One", cursive;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.section-5-images {
+}
+.section-5-images .image1 {
+  position: absolute;
+  left: 0px;
+  top: -130px;
+}
+.section-5-images .image2 {
+  position: absolute;
+  left: 230px;
+  top: 70px;
+}
+.section-5-images .image3 {
+  position: absolute;
+  right: 0px;
+  bottom: -270px;
+}
 footer {
   width: 98%;
-  margin: auto;
-  margin-bottom: 40px;
+  margin: auto auto 40px;
 }
 .footer-area {
-  padding: 50px 30px 10px 30px;
+  padding: 50px 30px 10px;
 }
 .footer-top-area img {
   width: 400px;
@@ -293,22 +354,22 @@ footer {
 .center-area .footer-text-area {
   width: 30%;
   float: left;
-  margin: 0;
+  margin: 0px;
   padding-top: 20px;
 }
 .center-area .footer-text-area p {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
 }
 .loc-mail-area {
   float: right;
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 20%;
 }
 .loc-mail-area ul:first-child {
   list-style: none;
-  padding-top: 40px;
+  padding-top: 50px;
   overflow: hidden;
 }
 .loc-mail-area ul:last-child {
@@ -322,7 +383,7 @@ footer {
 }
 .footer-bottom-area {
   overflow: hidden;
-  padding-top: 120px;
+  padding-top: 150px;
   padding-bottom: 5px;
 }
 .footer-bottom-area .left-bottom {
@@ -330,7 +391,7 @@ footer {
 }
 .footer-bottom-area .left-bottom p {
   font-family: "Bebas Neue", cursive;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .footer-bottom-area .right-bottom {
   float: right;
@@ -346,7 +407,6 @@ footer {
 }
 .footer-bottom-area .right-bottom ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 28px;
 }
-/* footer area end here  */
