@@ -95,16 +95,16 @@
 }
 .burger-img-area {
   float: right;
+  position: relative;
 }
 .burger-img-area img {
-  position: relative;
   width: 800px;
   height: 680px;
 }
 .burger-img-area h3 {
   position: absolute;
-  bottom: 235px;
-  right: 640px;
+  bottom: 100px;
+  right: 610px;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   font-size: 46px;
@@ -115,8 +115,8 @@
 }
 .burger-img-area .only {
   position: absolute;
-  bottom: 205px;
-  right: 620px;
+  bottom: 70px;
+  right: 590px;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   font-size: 25px;
