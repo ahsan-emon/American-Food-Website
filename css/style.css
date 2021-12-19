@@ -177,32 +177,28 @@
   overflow: hidden;
   text-align: center;
 }
-.section-3 .left-burger {
-  float: left;
+.section-3 ul {
+  overflow: hidden;
+  list-style: none;
 }
-.section-3 .left-burger h1,
-.section-3 .middle-burger h1,
-.section-3 .right-burger h1 {
+.section-3 ul li {
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+}
+.section-3 ul li h1 {
   text-transform: uppercase;
   color: rgb(61, 37, 20);
   font-family: "Bebas Neue", cursive;
   font-size: 26px;
   font-weight: 400;
 }
-.section-3 .left-burger h1,
-.section-3 .right-burger h1 {
-  padding: 10px 0px;
-}
-.section-3 .left-burger p,
-.section-3 .middle-burger p,
-.section-3 .right-burger p {
+.section-3 ul li p {
   color: rgb(61, 37, 20);
   width: 55%;
   margin: auto;
 }
-.section-3 .left-burger button,
-.section-3 .middle-burger button,
-.section-3 .right-burger button {
+.section-3 ul li button {
   font-family: "Alfa Slab One", cursive;
   background-color: rgb(191, 34, 34);
   color: rgb(255, 255, 255);
@@ -212,12 +208,9 @@
   font-size: 18px;
   cursor: pointer;
 }
-.section-3 .middle-burger {
-  float: left;
-  margin-left: 175px;
-}
-.section-3 .right-burger {
-  float: right;
+.section-3 ul li:nth-child(1),
+.section-3 ul li:nth-child(3) {
+  padding: 20px 0px;
 }
 .section-4 {
   margin: 50px 35px;
@@ -320,8 +313,6 @@
   border-radius: 4px;
   letter-spacing: 1px;
   font-size: 18px;
-}
-.section-5-images {
 }
 .section-5-images .image1 {
   position: absolute;
